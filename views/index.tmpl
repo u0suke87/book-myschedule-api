@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang=ja>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="book schedule">
+        <title>Book my schedule</title>
+        <link rel="stylesheet" href="../assets/style.css">
+    </head>
+    <body>
+      <h1>Book my schedule</h1>
+      <form action="thanks" method="post">
+        <table border="1">
+        <tr>
+          <th><label for="day_s" >予約開始日時</label></th>
+          <td><input id="day_s" type="date" name="day_s" required></td>
+          <td>
+            <select name="time_s">
+              <option value="" selected>選択してください</option>
+              <option value="08:00:00">8:00</option>
+              <option value="09:00:00">9:00</option>
+              <option value="10:00:00">10:00</option>
+              <option value="11:00:00">11:00</option>
+              <option value="12:00:00">12:00</option>
+              <option value="13:00:00">13:00</option>
+              <option value="14:00:00">14:00</option>
+              <option value="15:00:00">15:00</option>
+              <option value="16:00:00">16:00</option>
+              <option value="17:00:00">17:00</option>
+              <option value="18:00:00">18:00</option>
+              <option value="19:00:00">19:00</option>
+              <option value="20:00:00">20:00</option>
+              <option value="21:00:00">21:00</option>
+              <option value="22:00:00">22:00</option>
+              <option value="23:00:00">23:00</option>
+              <option value="24:00:00">24:00</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="day_e" >予約終了日時</label></th>
+          <td><input id="day_e" type="date" name="day_e" required></td>
+          <td>
+            <select name="time_e">
+              <option value="" selected>選択してください</option>
+              <option value="08:00:00">8:00</option>
+              <option value="09:00:00">9:00</option>
+              <option value="10:00:00">10:00</option>
+              <option value="11:00:00">11:00</option>
+              <option value="12:00:00">12:00</option>
+              <option value="13:00:00">13:00</option>
+              <option value="14:00:00">14:00</option>
+              <option value="15:00:00">15:00</option>
+              <option value="16:00:00">16:00</option>
+              <option value="17:00:00">17:00</option>
+              <option value="18:00:00">18:00</option>
+              <option value="19:00:00">19:00</option>
+              <option value="20:00:00">20:00</option>
+              <option value="21:00:00">21:00</option>
+              <option value="22:00:00">22:00</option>
+              <option value="23:00:00">23:00</option>
+              <option value="24:00:00">24:00</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="name" >Your Name</label></th>
+          <td><input id="name" type="text" name="name" required></td>
+        </tr>
+        <tr>
+          <th><label for="purpose" >Purpose</label></th>
+          <td><input id="purpose" type="text" name="purpose" required></td>
+        </tr>
+        </table>
+        <input type="submit" value="送信">
+      </form>
+    </body>
+</html>

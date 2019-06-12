@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang=ja>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="book schedule">
+        <title>Book my schedule</title>
+        <link rel="stylesheet" href="../assets/style.css">
+    </head>
+    <body>
+      <h1>Book my schedule</h1>
+      <p>Thanks {{.name}}.</p>
+      <p>Your appointment is booked from {{.startDateTime}} to {{.endDateTime}}.</p>
+      <p>You can add this event to your calendar using the below link:</p>
+      <div><a href="{{.registerURL}}" target="_blank">Add to your Google Calendar</a></div>
+    </body>
+</html>
